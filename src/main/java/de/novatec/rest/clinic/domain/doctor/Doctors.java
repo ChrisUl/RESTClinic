@@ -1,4 +1,4 @@
-package info.novatec.rest.clinic.domain.doctor;
+package de.novatec.rest.clinic.domain.doctor;
 
 import javax.xml.bind.annotation.XmlElementRef;
 import javax.xml.bind.annotation.XmlRootElement;

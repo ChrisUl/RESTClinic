@@ -1,6 +1,6 @@
-package info.novatec.rest.clinic.persistence;
+package de.novatec.rest.clinic.persistence;
 
-import info.novatec.rest.clinic.domain.doctor.Doctor;
+import de.novatec.rest.clinic.domain.doctor.Doctor;
 
 import java.util.ArrayList;
 import java.util.Collection;

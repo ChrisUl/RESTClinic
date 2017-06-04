@@ -1,10 +1,10 @@
-package info.novatec.vorlesung.rest;
+package de.novatec.rest.main;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
-import info.novatec.rest.clinic.services.DoctorResource;
+import de.novatec.rest.clinic.services.DoctorResource;
 
 public class Main {
 

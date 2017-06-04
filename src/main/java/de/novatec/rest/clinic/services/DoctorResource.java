@@ -1,7 +1,7 @@
-package info.novatec.rest.clinic.services;
+package de.novatec.rest.clinic.services;
 
-import info.novatec.rest.clinic.business.DoctorBf;
-import info.novatec.rest.clinic.domain.doctor.Doctor;
+import de.novatec.rest.clinic.business.DoctorBf;
+import de.novatec.rest.clinic.domain.doctor.Doctor;
 
 import java.net.URI;
 import java.net.URISyntaxException;

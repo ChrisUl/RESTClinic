@@ -1,4 +1,4 @@
-package info.novatec.rest.clinic.util;
+package de.novatec.rest.clinic.util;
 
 import java.util.Random;
 import java.util.StringTokenizer;

@@ -1,4 +1,4 @@
-package info.novatec.rest.clinic.services;
+package de.novatec.rest.clinic.services;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

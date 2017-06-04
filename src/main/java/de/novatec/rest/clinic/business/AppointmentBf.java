@@ -1,10 +1,10 @@
-package info.novatec.rest.clinic.business;
+package de.novatec.rest.clinic.business;
 
-import info.novatec.rest.clinic.domain.appointment.Appointment;
-import info.novatec.rest.clinic.domain.appointment.Appointments;
-import info.novatec.rest.clinic.exception.ResourceAlreadyExistsException;
-import info.novatec.rest.clinic.persistence.AppointmentPs;
-import info.novatec.rest.clinic.util.IdGenerator;
+import de.novatec.rest.clinic.domain.appointment.Appointment;
+import de.novatec.rest.clinic.exception.ResourceAlreadyExistsException;
+import de.novatec.rest.clinic.util.IdGenerator;
+import de.novatec.rest.clinic.domain.appointment.Appointments;
+import de.novatec.rest.clinic.persistence.AppointmentPs;
 
 import javax.ws.rs.core.UriBuilder;
 import java.net.URI;

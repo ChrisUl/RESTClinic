@@ -1,6 +1,6 @@
-package info.novatec.rest.clinic.persistence;
+package de.novatec.rest.clinic.persistence;
 
-import info.novatec.rest.clinic.domain.appointment.Appointment;
+import de.novatec.rest.clinic.domain.appointment.Appointment;
 
 import java.util.ArrayList;
 import java.util.Arrays;

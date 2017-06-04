@@ -1,6 +1,6 @@
-package info.novatec.rest.clinic.persistence;
+package de.novatec.rest.clinic.persistence;
 
-import info.novatec.rest.clinic.domain.patient.Patient;
+import de.novatec.rest.clinic.domain.patient.Patient;
 
 import java.util.Collection;
 import java.util.HashMap;

@@ -1,21 +1,17 @@
-package info.novatec.rest.clinic.domain.doctor;
+package de.novatec.rest.clinic.domain.patient;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.net.URI;
 
-@XmlRootElement(name = "doctor")
-public class Doctor {
+@XmlRootElement(name = "patient")
+public class Patient {
 
     private String id;
 
     private String name;
 
-    private String role;
-
     private URI self;
-
-    private URI appointments;
 
     @XmlElement
     public String getId() {
@@ -36,15 +32,6 @@ public class Doctor {
     }
 
     @XmlElement
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String specialty) {
-        this.role = specialty;
-    }
-
-    @XmlElement
     public URI getSelf() {
         return self;
     }
@@ -52,14 +39,4 @@ public class Doctor {
     public void setSelf(URI self) {
         this.self = self;
     }
-
-    @XmlElement
-    public URI getAppointments() {
-        return appointments;
-    }
-
-    public void setAppointments(URI appointments) {
-        this.appointments = appointments;
-    }
-
 }
