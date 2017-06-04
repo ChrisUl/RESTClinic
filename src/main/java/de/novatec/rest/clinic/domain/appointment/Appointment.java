@@ -1,10 +1,7 @@
 package de.novatec.rest.clinic.domain.appointment;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 import java.net.URI;
 
-@XmlRootElement(name = "appointment")
 public class Appointment {
 
     private int id;
@@ -21,7 +18,6 @@ public class Appointment {
 
     private URI self;
 
-    @XmlElement
     public int getId() {
         return id;
     }
@@ -30,14 +26,12 @@ public class Appointment {
         this.id = id;
     }
 
-    @XmlElement
     public String getPatientId() {
         return patientId;
     }
 
     public void setPatientId(String patient) { this.patientId = patient; }
 
-    @XmlElement
     public String getDate() {
         return date;
     }
@@ -46,7 +40,6 @@ public class Appointment {
         this.date = date;
     }
 
-    @XmlElement
     public String getStart() {
         return start;
     }
@@ -55,7 +48,6 @@ public class Appointment {
         this.start = start;
     }
 
-    @XmlElement
     public String getEnd() {
         return end;
     }
@@ -64,7 +56,6 @@ public class Appointment {
         this.end = specialty;
     }
 
-    @XmlElement
     public String getDoctorId() {
         return doctorId;
     }
@@ -73,7 +64,6 @@ public class Appointment {
         this.doctorId = doctorId;
     }
 
-    @XmlElement
     public URI getSelf() {
         return self;
     }

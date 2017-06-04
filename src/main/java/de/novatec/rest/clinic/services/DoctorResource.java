@@ -20,7 +20,7 @@ public class DoctorResource {
     private DoctorBf doctorBf = new DoctorBf();
 
     @POST
-    @Consumes("application/xml")
+    @Consumes("application/json")
     public Response createDoctorPost(@Context UriInfo uriInfo, Doctor doctor) throws URISyntaxException {
         Doctor created = doctorBf.create(doctor, uriInfo.getAbsolutePath());
 
@@ -31,6 +31,7 @@ public class DoctorResource {
     
     @GET
     @Path("{id}")
+    @Produces("application/json")
     public Response getDoctor(@PathParam("id") String id) {
     	Doctor found = doctorBf.findById(id);
     	
