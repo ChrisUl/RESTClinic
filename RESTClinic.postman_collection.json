@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "a2849f1f-7c7e-4f34-8015-ab0a3e0ee9b4",
+		"name": "RESTClinic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Doctor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Gregory House\",\n\t\"role\" : \"General Physician\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/doctors/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctors",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Doctor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/doctors/culdack",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctors",
+						"culdack"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
